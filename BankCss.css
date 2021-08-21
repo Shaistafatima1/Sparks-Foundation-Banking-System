@@ -1,0 +1,122 @@
+h1
+{
+    text-align: center;
+	color: pink;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+nav 
+{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	position:fixed;
+	width:100%;
+padding: 0% 0% 0% 35%;
+
+}
+nav ul li a 
+{
+	color: black;
+}
+nav ul li a :hover
+{
+	 color: Black;
+}
+nav ul li a div
+{
+	color: black;
+	display:flex;
+}
+nav ul li a div:hover
+{
+	 color: Black;
+}
+#footer
+{
+    text-align: center;
+    font-size: 120%;
+    font-family: sans-serif;
+    color: black;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid #black;
+}
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+	background-color:white;
+  }
+  tr:nth-child(even){background-color: black;}
+  
+  .showDiv {
+  background-color:white ;
+
+  text-align: center;
+  margin:auto;
+  width: auto;
+  border: 1px solid light;
+  padding: 10px;
+  height:auto;
+}
+  
+  .info
+{
+    padding-top:2%;
+    padding-bottom:5%;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"poppins", sans-sarif;
+}
+  .spark
+{
+    padding-top:5%;
+}
+.img img{
+    padding-right:5%;
+}
+.activity-image
+{
+    padding-top:50px;
+    justify-content:center;
+    align-items:center;
+	page-break-after:20px;
+    display:flex;
+    flex-direction:row;
+	height:1%;
+	width:1%;
+}
+.button{
+    margin-left:30px;
+    border:none;
+    background:none;
+    color:white;
+    box-shadow:2px 1px 3px 4px rgb(209, 209, 209);
+    padding:10px;
+    border-radius:15px;
+    background:green;
+    outline:none;
+}
+.button:hover
+{
+    outline:none;
+    background:white;
+    color:#0099ec;
+
+}
+
+
+
+@media (max-width:600px) 
+{
+    .activity-image{
+        display:flex;
+        flex-direction:column;
+}
+}
